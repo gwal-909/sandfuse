@@ -1,7 +1,7 @@
 def ceasar_cipher(in_text, shift):
     result_text = ''
 
-    for letter in range(len(in_text)):
+    for letter in range(len(in_text)): # TODO: use enum instead
         char = in_text[letter]
 
         if char.isupper():
@@ -13,7 +13,8 @@ def ceasar_cipher(in_text, shift):
     return result_text
 
 def main():
-    text = 'WeAreDOOMED'
+    text = 'WeAreDOOMED'  # TODO: allow for spaces in input.
+    
     shift = 4
     ciphered_message = ceasar_cipher(text, shift)
     print('Input: ', text)
