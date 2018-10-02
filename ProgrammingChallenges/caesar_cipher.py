@@ -1,6 +1,6 @@
 def ceasar_cipher(in_text, shift):
     result_text = ''
-
+ 
     for letter in range(len(in_text)): # TODO: use enum instead
         char = in_text[letter]
 
