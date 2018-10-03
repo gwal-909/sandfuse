@@ -25,6 +25,7 @@ def init_logger():
     gw_file_handle.setFormatter(gw_format) # set formatter for file handler
     gw_logger.addHandler(gw_file_handle) # add handler to logger
 
+    # set log messages where needed in code
     gw_logger.debug('Debug message here.')
     gw_logger.info('Info message here.')
     gw_logger.warning('Warning message here.')
