@@ -5,3 +5,4 @@ https://www.codechef.com/problems/CLKLZM
 
 n = 0 # number of zombies
 m = 0 # number of cranes
+
