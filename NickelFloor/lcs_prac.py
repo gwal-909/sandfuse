@@ -26,9 +26,8 @@ def lcs(a, b):
             y -= 1
         else:
             assert a[x-1] == b[y-1]
-            result = a[x-1] + result # place the matched indexed letter at 
-                                     # front of string. 
-            # subtract 1 from x and y to traverse the matrix diagonally up left
+            result = a[x-1] + result # place the matched indexed latter at front of string
+            # traverse matrix diagonally up left
             x -= 1
             y -= 1 
 
