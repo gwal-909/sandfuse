@@ -1,4 +1,5 @@
 # sandfuse
 
-This is a python sandbox repository for posting programming challenges and related project code.
-There is not much here now, but as things grow, any constructive feedback will always be appreciated.
+The code in this repo is collected from either research or tutorials. 
+
+Repo also includes toy or experimental code and therefore not my own.
