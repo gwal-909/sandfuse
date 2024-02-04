@@ -2,6 +2,5 @@
 
 *repo and some directory names auto-generated.
 
-The code in this repo is collected from either research or tutorials. 
+DISCLAIMER: This repo is a collection of works from research and/or tutorials and therefore not all code is my own.
 
-Repo also includes toy or experimental code and therefore not my own.
